@@ -29,8 +29,6 @@ namespace OpenShiftTest
             {
                 await context.Response.WriteAsync("Hello World!");
 
-                await context.Response.WriteAsync(OCWebClient.GetGoogle());
-
             });
         }
     }
